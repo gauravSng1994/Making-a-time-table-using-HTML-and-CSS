@@ -1,0 +1,1410 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Experiment-04</title>
+	<style type="text/css">
+
+		body{
+			margin: 0px;
+			padding:0px;
+			background-color:#379683 ; 
+		}
+		.top{
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			background-color:#379683;
+			height: 20px; 
+			width: 100%;
+		}
+
+		.left {
+			margin-top: 20px;
+			margin-left:13px;
+			font-size: 30px;
+			width: 17%;
+			float: left;
+			position: fixed;
+			background-color: #5CDB95;
+			height: 100%;	
+			border-left: 5px solid #009933;
+			border-radius: 10px;
+		}
+
+		.left div{
+			height: 50px;
+			margin-left: 45px;
+			margin-right: 20px;	
+		}
+
+		.left #link:hover{
+			background-color: #8EE4AF
+		}
+
+		.left #link{
+			height: 35px;
+			font-size: 30px;
+			color: red;
+			text-decoration-color: green;
+			text-decoration: none;
+			padding-left:10px;
+			padding-top: 9px;
+			padding-bottom: 5px;
+			vertical-align: middle;
+			border-left: 3px solid #00cc44;
+			border-radius: 8px;
+			letter-spacing: 1px;
+
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
+
+		.right {
+			background-color: #8EE4AF;
+			margin-top: 20px;
+			width: 79.5%;
+			float: right;
+			padding-left: 15px; 
+			padding-top: 10px;
+			position: initial;
+			border-left: 5px solid #009933;
+			border-radius: 10px;
+		}
+		.right_top{
+			height: 40px;
+			width: 100%;
+			background-color: #8EE4AF;
+		}
+		
+		ul{
+			list-style-type: none;
+			text-decoration-line: none;
+		}
+		li a{
+			display: block;
+		}
+		#btn{
+			margin-top: 20px;
+			margin-bottom: 20px;
+			font-size: 35px;
+			background-color: #009933;
+			width: 80px;
+			height: 40px;
+			padding: 9px;
+			text-align: center;
+			color: white;
+			border-radius: 10px;
+		}
+		
+	</style>
+</head>
+<body >
+
+<div style="width:99%; background-color:#379683: padding-top:20px;">
+	<div class="top"></div>
+
+	<div class="left">
+		<div style="margin-left: 20px; margin-top: 30px; font-size: 35px ; margin-bottom: 7px;">Time Tables</div>
+		<div id="link"><a href="#4th_SEM" style="color: white; text-decoration: none;">SEM IV</a></div>
+		<div id="link"><a href="#6th_SEM" style="color: white; text-decoration: none;">SEM VI</a></div>
+		<div id="link"><a href="#8th_SEM" style="color: white; text-decoration: none;">SEM VIII</a></div>
+	</div>
+
+	<div style="margin-left: 8px solid #008000;">
+	<div class="right" >
+		<div style="padding-top: 2px;">
+			<img src="Logo.png" width="90px" height="90px" style="float: left;">
+			<div  style="height: 45px; background: transparent; text-align: center; font-size: 40px; vertical-align: middle;">G B Pant Government Engineering College</div>
+			<div style="height: 45px; background: transparent; text-align: center; font-size: 40px; vertical-align: middle;">Departmnt of Computer Science</div>
+		</div>
+
+		<div id="4th_SEM" style="padding-top: 30px; ">
+			<div style="text-align: center; padding-bottom: 40px;margin-bottom: 10px; margin-top: 10px;">
+				<div style="font-size: 18px;height: 25px; float: left; width: 10%;padding-top: 7px;">w.e.f: 24/01/17</div>
+				<div style="float: right; width: 90%;">
+					<div style="font-size: 35px; height: 35px; text-align: center;">Class : CSE-4</div>
+				</div>
+			</div>
+
+			<table style="border: 3px solid black; border-collapse: collapse; width: 1170px">
+				<tr id="row1" style="background-color: #6D7993">
+					<td style="border-right: 3px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; "></td>
+					<td style="border-right: 1px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">1</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">9:15-10:15</div>
+					</td>
+					<td style="border-right: 1px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">2</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">10:15-11:15</div>
+					</td>
+					<td style="border-right: 1px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">3</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">11:15-12:15</div>
+					</td>
+					<td style="border-right: 1px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">4</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">12:15-13:15</div>
+					</td>
+					<td style="border-right: 1px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">Lunch</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">13:15-14:00</div>
+					</td>
+					<td style="border-right: 1px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">5</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">14:00-15:00</div>
+					</td>
+					<td style="border-right: 1px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">6</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">15:00-16:00</div>
+					</td>
+					<td style=" border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">7</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">16:00-17:</div>
+					</td>
+				</tr>
+
+				<tr id="row2/Mon">
+					<td style="border-right: 3px solid black; border-bottom: 1px solid black; width: 130px; height: 130px; background-color: #6D7993; ">
+						<div style=" font-size: 30px; text-align: center; padding-top:  10px;">Mo</div>
+					</td>
+
+					<td colspan="2" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #4ABDAC; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;">Group 1</div>
+							<div style=" font-size: 30px; text-align: center; ">AM Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">CC-1</div>
+								<div style="float: right;">P. Sarvanan</div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px; padding-top: 3px">Group 2</div>
+							<div style=" font-size: 30px; text-align: center;">CS Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">EM Lab-2</div>
+								<div style="float: right;">Sant Deepak</div>
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #C09F80; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Tiwari Sunita</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">TOC</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #F19F4D; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">P. Sarvanan</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">AM-IV</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+
+					<td id="Lunch" style="border-right: 1px solid black; width: 130px; height: 120px;  background-color: #9099A2">
+						<div>	
+						</div>
+					</td>
+
+					<td colspan="2" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #4ABDAC; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;"></div>
+							<div style=" font-size: 30px; text-align: center;padding-top: 15px; ">Sports/Lib</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;"></div>
+								<div style="float: right;"></div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px; padding-top: 3px">Group 2</div>
+							<div style=" font-size: 30px; text-align: center;">OOP Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">CC-2</div>
+								<div style="float: right;">Kumar Amit</div>
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #93C178; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Kumar Amit</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">OOPs</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+				</tr>
+
+				<tr id="row3/Tue">
+					<td style="border-right: 3px solid black; border-bottom: 1px solid black; background-color: #6D7993; width: 130px; height: 130px; ">
+						<div style=" font-size: 30px; text-align: center; padding-top:  10px;">Tu</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #F19F4D; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">P. Sarvanan</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">AM-IV</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #A4D555; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Tripathi Jyoti</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">COA</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #AB9353; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Saini Anu</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">DBMS</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #93C178; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Kumar Amit</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">OOPs</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+					<td id="Lunch" style="border-right: 1px solid black; width: 130px; height: 120px; background-color: #9099A2 ">
+						<div>	
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #DCAE1D; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Sant Deepak</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">CS</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+
+					<td colspan="2" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #4ABDAC; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;">Group 1</div>
+							<div style=" font-size: 30px; text-align: center; ">COA Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">EM Lab-1</div>
+								<div style="float: right;">Tripathi Jyoti</div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px; padding-top: 3px">Group 2</div>
+							<div style=" font-size: 30px; text-align: center;">DBMS Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">CC-2</div>
+								<div style="float: right;">Saini Anu</div>
+							</div>
+						</div>
+					</td>
+				</tr>
+
+				<tr id="row4/Wed">
+					<td style="border-right: 3px solid black; border-bottom: 1px solid black; background-color: #6D7993; width: 130px; height: 130px; ">
+						<div style=" font-size: 30px; text-align: center; padding-top:  10px;">We</div>
+					</td>
+
+					<td colspan="2" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #4ABDAC; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;">Group 1</div>
+							<div style=" font-size: 30px; text-align: center; ">CS Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">EM Lab-2</div>
+								<div style="float: right;">Sant Deepak</div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px; padding-top: 3px">Group 2</div>
+							<div style=" font-size: 30px; text-align: center;">AM Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">CC-1</div>
+								<div style="float: right;">P. Sarvanan</div>
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #C09F80; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Tiwari Sunita</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">TOC</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #93C178; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Kumar Amit</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">OOPs</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+
+					<td id="Lunch" style="border-right: 1px solid black; width: 130px; height: 120px; background-color: #9099A2 ">
+						<div>	
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #DCAE1D; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Sant Deepak</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">CS</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #A4D555; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Tripathi Jyoti</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">COA</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #AB9353; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Saini Anu</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">DBMS</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+				</tr>
+
+				<tr id="row5/Th">
+					<td style="border-right: 3px solid black; border-bottom: 1px solid black; background-color: #6D7993; width: 130px; height: 130px; ">
+						<div style=" font-size: 30px; text-align: center; padding-top:  10px;">Th</div>
+					</td>
+
+					<td colspan="2" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #4ABDAC; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;">Group 1</div>
+							<div style=" font-size: 30px; text-align: center; ">OOP Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">CC-1</div>
+								<div style="float: right;">Kumar Amit</div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px;"></div>
+							<div style=" font-size: 30px; text-align: center;padding-top: 15px; ">Sports/Lib</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;"></div>
+								<div style="float: right;"></div>
+							</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #AB9353; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Saini Anu</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">DBMS</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #DCAE1D; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Sant Deepak</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">CS</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+
+					<td id="Lunch" style="border-right: 1px solid black; width: 130px; height: 120px; background-color: #9099A2 ">
+						<div>	
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #F19F4D; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">P. Sarvanan</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">AM-IV</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #C09F80; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Tiwari Sunita</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">TOC</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #A4D555; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Tripathi Jyoti</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">COA</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+				</tr>
+
+				<tr id="row6/Fri">
+					<td style="border-right: 3px solid black; border-bottom: 1px solid black; background-color: #6D7993; width: 130px; height: 130px; ">
+						<div style=" font-size: 30px; text-align: center; padding-top:  10px;">Fr</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #C09F80; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Tiwari Sunita</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">TOC</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #AB9353; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Saini Anu</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">DBMS</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #DCAE1D; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Sant Deepak</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">CS</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #A4D555; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Tripathi Jyoti</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">COA</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+					<td id="Lunch" style="border-right: 1px solid black; width: 130px; height: 120px; background-color: #9099A2">
+						<div>	
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #F19F4D; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">P. Sarvanan</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">AM-IV</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303
+							</div>
+						</div>
+					</td>
+					<td colspan="2" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #4ABDAC; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;">Group 1</div>
+							<div style=" font-size: 30px; text-align: center; ">DBMS Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">CC-2</div>
+								<div style="float: right;">Mittal Mamta</div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px; padding-top: 3px">Group 2</div>
+							<div style=" font-size: 30px; text-align: center;">COA Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">EM Lab-1</div>
+								<div style="float: right;">Tripathi Jyoti</div>
+							</div>
+						</div>
+					</td>
+
+				</tr>
+			</table>
+		</div>
+
+		<div id="6th_SEM">
+			<div style="text-align: center; padding-bottom: 40px;margin-bottom: 10px; margin-top: 60px; padding-top: 30px;">
+				<div style="font-size: 18px;height: 25px; float: left; width: 10%;padding-top: 7px;">w.e.f: 24/01/17</div>
+				<div style="float: right; width: 90%;">
+					<div style="font-size: 35px; height: 35px; text-align: center;">Class : CSE-6</div>
+				</div>
+			</div>
+
+			<table style="border: 3px solid black; border-collapse: collapse; width: 1170px">
+				<tr id="row1" style="background-color: #6D7993">
+					<td style="border-right: 3px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; "></td>
+					<td style="border-right: 1px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">1</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">9:15-10:15</div>
+					</td>
+					<td style="border-right: 1px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">2</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">10:15-11:15</div>
+					</td>
+					<td style="border-right: 1px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">3</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">11:15-12:15</div>
+					</td>
+					<td style="border-right: 1px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">4</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">12:15-13:15</div>
+					</td>
+					<td style="border-right: 1px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">Lunch</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">13:15-14:00</div>
+					</td>
+					<td style="border-right: 1px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">5</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">14:00-15:00</div>
+					</td>
+					<td style="border-right: 1px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">6</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">15:00-16:00</div>
+					</td>
+					<td style=" border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">7</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">16:00-17:</div>
+					</td>
+				</tr>
+
+				<tr id="row2/Mon">
+					<td style="border-right: 3px solid black; border-bottom: 1px solid black; width: 130px; height: 130px; background-color: #6D7993; ">
+						<div style=" font-size: 30px; text-align: center; padding-top:  10px;">Mo</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #C09F80; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Chandan Kumar</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">AI</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">304
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #A4D555; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Tripathi Jyoti</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">CD</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">304
+							</div>
+						</div>
+					</td>
+
+					<td colspan="2" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #4ABDAC; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;">Group 1</div>
+							<div style=" font-size: 30px; text-align: center; ">WE Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">CC-1</div>
+								<div style="float: right;">Pangtey Manjeet</div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px; padding-top: 3px">Group 2</div>
+							<div style=" font-size: 30px; text-align: center;">MP Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">EM Lab-1</div>
+								<div style="float: right;">Anand Rohit</div>
+							</div>
+						</div>
+					</td>
+
+					<td id="Lunch" style="border-right: 1px solid black; width: 130px; height: 120px;  background-color: #9099A2">
+						<div>	
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #DCAE1D; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Verma Jatin</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">CN</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">304
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #AB9353; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Kumari Sunita</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">OS</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">304
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #93C178; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Saini Aman</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">MP</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">304
+							</div>
+						</div>
+					</td>
+				</tr>
+
+				<tr id="row3/Tue">
+					<td style="border-right: 3px solid black; border-bottom: 1px solid black; background-color: #6D7993; width: 130px; height: 130px; ">
+						<div style=" font-size: 30px; text-align: center; padding-top:  10px;">Tu</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #93C178; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Saini Aman</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">MP</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">304
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #DCAE1D; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Verma Jatin</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">CN</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">304
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #C09F80; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Chandan Kumar</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">AI</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">304
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #F19F4D; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Pangtey Manjeeet</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">WE</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">304
+							</div>
+						</div>
+					</td>
+
+					<td id="Lunch" style="border-right: 1px solid black; width: 130px; height: 120px; background-color: #9099A2 ">
+						<div>	
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #AB9353; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Kumari Sunita</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">OS</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">304
+							</div>
+						</div>
+					</td>
+
+					<td colspan="2" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #4ABDAC; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;">Group 1</div>
+							<div style=" font-size: 30px; text-align: center; ">CN Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">CC-1</div>
+								<div style="float: right;">Verma Jatin</div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px;"></div>
+							<div style=" font-size: 30px; text-align: center;padding-top: 15px; ">Sports/Lib</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;"></div>
+								<div style="float: right;"></div>
+							</div>
+					</td>
+
+				<tr id="row4/Wed">
+					<td style="border-right: 3px solid black; border-bottom: 1px solid black; background-color: #6D7993; width: 130px; height: 130px; ">
+						<div style=" font-size: 30px; text-align: center; padding-top:  10px;">We</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #A4D555; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Tripathi Jyoti</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">CD</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">304
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #93C178; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Saini Aman</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">MP</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">304
+							</div>
+						</div>
+					</td>
+
+					<td colspan="2" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #4ABDAC; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;">Group 1</div>
+							<div style=" font-size: 30px; text-align: center; ">MP Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">EM Lab-1</div>
+								<div style="float: right;">Anand Rohit</div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px; padding-top: 3px">Group 2</div>
+							<div style=" font-size: 30px; text-align: center;">WE Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">CC-1</div>
+								<div style="float: right;">Pangtey Manjeet</div>
+							</div>
+						</div>
+					</td>
+
+					<td id="Lunch" style="border-right: 1px solid black; width: 130px; height: 120px; background-color: #9099A2 ">
+						<div>	
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #C09F80; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Chandan Kumar</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">AI</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">304
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #9099A2; width: 130px; height: 120px; ">
+						<div>
+							
+						</div>
+					</td>
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #9099A2; width: 130px; height: 120px; ">
+						<div>
+							
+						</div>
+					</td>
+				</tr>
+
+				<tr id="row5/Th">
+					<td style="border-right: 3px solid black; border-bottom: 1px solid black; background-color: #6D7993; width: 130px; height: 130px; ">
+						<div style=" font-size: 30px; text-align: center; padding-top:  10px;">Th</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #F19F4D; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Pangtey Manjeeet</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">WE</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">304
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #DCAE1D; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Verma Jatin</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">CN</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">304
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #A4D555; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Tripathi Jyoti</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">CD</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">304
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #AB9353; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Kumari Sunita</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">OS</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">304
+							</div>
+						</div>
+					</td>
+
+					<td id="Lunch" style="border-right: 1px solid black; width: 130px; height: 120px; background-color: #9099A2 ">
+						<div>	
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #93C178; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Saini Aman</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">MP</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">304
+							</div>
+						</div>
+					</td>
+
+					<td colspan="2" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #4ABDAC; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;">Group 1</div>
+							<div style=" font-size: 30px; text-align: center; ">OS Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">CC-2</div>
+								<div style="float: right;">Kumari Sunkita</div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px; padding-top: 3px">Group 2</div>
+							<div style=" font-size: 30px; text-align: center;">CN Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">CC-1</div>
+								<div style="float: right;">Verma Jatin</div>
+							</div>
+						</div>
+					</td>
+
+				</tr>
+
+				<tr id="row6/Fri">
+					<td style="border-right: 3px solid black; border-bottom: 1px solid black; background-color: #6D7993; width: 130px; height: 130px; ">
+						<div style=" font-size: 30px; text-align: center; padding-top:  10px;">Fr</div>
+					</td>
+
+					<td colspan="2" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #4ABDAC; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;">Group 1</div>
+							<div style=" font-size: 30px; text-align: center; ">AM Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">CC-1</div>
+								<div style="float: right;">P. Sarvanan</div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px; padding-top: 3px">Group 2</div>
+							<div style=" font-size: 30px; text-align: center;">CS Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">EM Lab-2</div>
+								<div style="float: right;">Sant Deepak</div>
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #A4D555; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Tripathi Jyoti</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">CD</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">304
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #F19F4D; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Pangtey Manjeeet</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">WE</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">304
+							</div>
+						</div>
+					</td>
+
+					<td id="Lunch" style="border-right: 1px solid black; width: 130px; height: 120px; background-color: #9099A2">
+						<div>	
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #C09F80; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Chandan Kumar</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">AI</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">304
+							</div>
+						</div>
+					</td>
+
+					<td colspan="2" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #4ABDAC; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;"></div>
+							<div style=" font-size: 30px; text-align: center;padding-top: 15px; ">Sports/Lib</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;"></div>
+								<div style="float: right;"></div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px; padding-top: 3px">Group 2</div>
+							<div style=" font-size: 30px; text-align: center;">OS Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">CC-1</div>
+								<div style="float: right;">Kumari Sunita</div>
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div id="8th_SEM">
+			<div style="text-align: center; padding-bottom: 40px;margin-bottom: 10px; margin-top: 60px; padding-top: 30px;">
+				<div style="font-size: 18px;height: 25px; float: left; width: 10%;padding-top: 7px;">w.e.f: 24/01/17</div>
+				<div style="float: right; width: 90%;">
+					<div style="font-size: 35px; height: 35px; text-align: center;">Class : CSE-8</div>
+				</div>
+			</div>
+
+			<table style="border: 3px solid black; border-collapse: collapse; width: 1170px">
+				<tr id="row1" style="background-color: #6D7993">
+					<td style="border-right: 3px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; "></td>
+					<td style="border-right: 1px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">1</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">9:15-10:15</div>
+					</td>
+					<td style="border-right: 1px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">2</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">10:15-11:15</div>
+					</td>
+					<td style="border-right: 1px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">3</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">11:15-12:15</div>
+					</td>
+					<td style="border-right: 1px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">4</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">12:15-13:15</div>
+					</td>
+					<td style="border-right: 1px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">Lunch</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">13:15-14:00</div>
+					</td>
+					<td style="border-right: 1px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">5</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">14:00-15:00</div>
+					</td>
+					<td style="border-right: 1px solid black; border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">6</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">15:00-16:00</div>
+					</td>
+					<td style=" border-bottom: 3px solid black; width: 130px; height: 50px; ">
+						<div style=" font-size: 20px; text-align: center; padding-top:  10px;">7</div>
+						<div style="font-size: 10px; text-align: center; padding-top:  10px;">16:00-17:</div>
+					</td>
+				</tr>
+
+				<tr id="row2/Mon">
+					<td style="border-right: 3px solid black; border-bottom: 1px solid black; width: 130px; height: 130px; background-color: #6D7993; ">
+						<div style=" font-size: 30px; text-align: center; padding-top:  10px;">Mo</div>
+					</td>
+
+					<td colspan="2" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #4ABDAC; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;">Group 1</div>
+							<div style=" font-size: 30px; text-align: center; ">PPL Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">CC-2</div>
+								<div style="float: right;">Verma Jatin</div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px;"></div>
+							<div style=" font-size: 30px; text-align: center;padding-top: 15px; ">Project</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;"></div>
+								<div style="float: right;"></div>
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #C09F80; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Abraham Joshil K.</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">HVPE</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">304
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #F19F4D; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;">Group 1</div>
+							<div style=" font-size: 30px; text-align: center; ">OOSE</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">203</div>
+								<div style="float: right;">KKC</div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px; padding-top: 3px">Group 2</div>
+							<div style=" font-size: 30px; text-align: center;">SC</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">304</div>
+								<div style="float: right;">AK</div>
+							</div>
+						</div>
+					</td>
+
+					<td id="Lunch" style="border-right: 1px solid black; width: 130px; height: 120px;  background-color: #9099A2">
+						<div>	
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #93C178; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Kumar Sushil</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">MC</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #93C178; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Kumar Sushil</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">MC</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">303</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #F19F4D; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;">Group 1</div>
+							<div style=" font-size: 30px; text-align: center; ">PPL</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">201</div>
+								<div style="float: right;">JV</div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px;"></div>
+							<div style=" font-size: 30px; text-align: center;padding-top: 15px; "></div>
+							<div style="font-size: 10px;">
+								<div style="float: left;"></div>
+								<div style="float: right;"></div>
+							</div>
+						</div>
+					</td>
+				</tr>
+
+				<tr id="row3/Tue">
+					<td style="border-right: 3px solid black; border-bottom: 1px solid black; background-color: #6D7993; width: 130px; height: 130px; ">
+						<div style=" font-size: 30px; text-align: center; padding-top:  10px;">Tu</div>
+					</td>
+
+					<td colspan="2" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #4ABDAC; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;">Group 1</div>
+							<div style=" font-size: 30px; text-align: center; ">OOSE</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">CC-1</div>
+								<div style="float: right;">Chandan Kumar Kundan</div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px; padding-top: 3px">Group 2</div>
+							<div style=" font-size: 30px; text-align: center;">SC Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">CC-2</div>
+								<div style="float: right;">Kumar Amit</div>
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #93C178; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Kumar Sushil</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">MC</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">203
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #AB9353; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Mittal Mamta</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">ML</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">203
+							</div>
+						</div>
+					</td>
+
+					<td id="Lunch" style="border-right: 1px solid black; width: 130px; height: 120px; background-color: #9099A2 ">
+						<div>	
+						</div>
+					</td>
+
+					<td colspan="3" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #9099A2; width: 130px; height: 120px; text-align: center; font-size: 35px;">
+						<div>
+							Project
+						</div>
+					</td>
+				</tr>
+
+				<tr id="row4/Wed">
+					<td style="border-right: 3px solid black; border-bottom: 1px solid black; background-color: #6D7993; width: 130px; height: 130px; ">
+						<div style=" font-size: 30px; text-align: center; padding-top:  10px;">We</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #AB9353; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Mittal Mamta</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">ML</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">203
+							</div>
+						</div>
+					</td>
+
+					<td style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #AB9353; width: 130px; height: 120px; ">
+						<div>
+							<div style="text-align: center; height: 30px; vertical-align: top; font-size: 15px;">Mittal Mamta</div>
+							<div style=" font-size: 30px;padding-top: 10px; text-align: center; height: 60px;">ML</div>
+							<div style="font-size: 15px;height: 30px; vertical-align: bottom; text-align: center;">203
+							</div>
+						</div>
+					</td>
+
+					<td colspan="1" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #F19F4D; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;">Group 1</div>
+							<div style=" font-size: 30px; text-align: center; ">OOSE</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">203</div>
+								<div style="float: right;">KKC</div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px; padding-top: 3px">Group 2</div>
+							<div style=" font-size: 30px; text-align: center;">SC</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">304</div>
+								<div style="float: right;">AK</div>
+							</div>
+						</div>
+					</td>
+
+					<td colspan="1" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #F19F4D; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;">Group 1</div>
+							<div style=" font-size: 30px; text-align: center; ">PPL</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">201</div>
+								<div style="float: right;">JV</div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px;"></div>
+							<div style=" font-size: 30px; text-align: center;padding-top: 15px; ">Sports/Lib</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;"></div>
+								<div style="float: right;"></div>
+							</div>
+						</div>
+					</td>
+
+					<td id="Lunch" style="border-right: 1px solid black; width: 130px; height: 120px; background-color: #9099A2 ">
+						<div>	
+						</div>
+					</td>
+
+					<td colspan="2" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #4ABDAC; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;">Group 1</div>
+							<div style=" font-size: 30px; text-align: center; ">MC Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">CC-2</div>
+								<div style="float: right;">Kumar Sushil</div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px; padding-top: 3px">Group 2</div>
+							<div style=" font-size: 30px; text-align: center;">ML Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">CC-1</div>
+								<div style="float: right;">Mittal Mamta</div>
+							</div>
+						</div>
+					</td>
+
+					<td colspan="1" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #4ABDAC; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;"></div>
+							<div style=" font-size: 30px; text-align: center;padding-top: 15px; ">Sports/Lib</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;"></div>
+								<div style="float: right;"></div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px; padding-top: 3px">Group 2</div>
+							<div style=" font-size: 30px; text-align: center;">WIBD</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">304</div>
+								<div style="float: right;">MP</div>
+							</div>
+						</div>
+					</td>
+				</tr>
+
+				<tr id="row5/Th">
+					<td style="border-right: 3px solid black; border-bottom: 1px solid black; background-color: #6D7993; width: 130px; height: 130px; ">
+						<div style=" font-size: 30px; text-align: center; padding-top:  10px;">Th</div>
+					</td>
+
+					<td colspan="1" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #F19F4D; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;">Group 1</div>
+							<div style=" font-size: 30px; text-align: center; ">OOSE</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">201</div>
+								<div style="float: right;">KKC</div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px;"></div>
+							<div style=" font-size: 30px; text-align: center;padding-top: 15px; ">Sports/Lib</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;"></div>
+								<div style="float: right;"></div>
+							</div>
+						</div>
+					</td>
+
+					<td colspan="1" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #4ABDAC; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;"></div>
+							<div style=" font-size: 30px; text-align: center;padding-top: 15px; ">Sports/Lib</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;"></div>
+								<div style="float: right;"></div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px; padding-top: 3px">Group 2</div>
+							<div style=" font-size: 30px; text-align: center;">WIBD</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">201</div>
+								<div style="float: right;">MP</div>
+							</div>
+						</div>
+					</td>
+
+					<td colspan="2" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #4ABDAC; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px; padding-top: 3px">Group 2</div>
+							<div style=" font-size: 30px; text-align: center;">ML Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">CC-1</div>
+								<div style="float: right;">Mittal Mamta</div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px;">Group 1</div>
+							<div style=" font-size: 30px; text-align: center; ">MC Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">CC-2</div>
+								<div style="float: right;">Kumar Sushil</div>
+							</div>
+						</div>
+					</td>
+
+					<td id="Lunch" style="border-right: 1px solid black; width: 130px; height: 120px; background-color: #9099A2 ">
+						<div>	
+						</div>
+					</td>
+
+					<td colspan="3" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #9099A2; width: 130px; height: 120px; text-align: center; font-size: 35px;">
+						<div>
+							Project
+						</div>
+					</td>
+				</tr>
+
+				<tr id="row6/Fri">
+					<td style="border-right: 3px solid black; border-bottom: 1px solid black; background-color: #6D7993; width: 130px; height: 130px; ">
+						<div style=" font-size: 30px; text-align: center; padding-top:  10px;">Fr</div>
+					</td>
+
+					<td colspan="2" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #4ABDAC; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;"></div>
+							<div style=" font-size: 30px; text-align: center;padding-top: 15px; ">Project</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;"></div>
+								<div style="float: right;"></div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px; padding-top: 3px">Group 2</div>
+							<div style=" font-size: 30px; text-align: center;">WIBD Lab</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">CC-1</div>
+								<div style="float: right;">Pangtey Manjeet</div>
+							</div>
+						</div>
+					</td>
+
+					<td colspan="1" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #4ABDAC; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;"></div>
+							<div style=" font-size: 30px; text-align: center;padding-top: 15px; ">Sports/Lib</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;"></div>
+								<div style="float: right;"></div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px; padding-top: 3px">Group 2</div>
+							<div style=" font-size: 30px; text-align: center;">SC</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">203</div>
+								<div style="float: right;">AK</div>
+							</div>
+						</div>
+					</td>
+
+					<td colspan="1" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #F19F4D; width: 130px; height: 119px; ">
+						<div style="height: 59px; border-bottom: 1px solid black;">
+							<div style="text-align: right;font-size: 10px;">Group 1</div>
+							<div style=" font-size: 30px; text-align: center; ">PPL</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;">203</div>
+								<div style="float: right;">JV</div>
+							</div>
+						</div>
+						<div style="height: 60px;">
+							<div style="text-align: right;font-size: 10px;"></div>
+							<div style=" font-size: 30px; text-align: center;padding-top: 15px; ">Sports/Lib</div>
+							<div style="font-size: 10px;">
+								<div style="float: left;"></div>
+								<div style="float: right;"></div>
+							</div>
+						</div>
+					</td>
+
+					<td id="Lunch" style="border-right: 1px solid black; width: 130px; height: 120px; background-color: #9099A2">
+						<div>	
+						</div>
+					</td>
+
+					<td colspan="3" style="border-right: 1px solid black; border-bottom: 1px solid black; background-color: #9099A2; width: 130px; height: 120px; text-align: center; font-size: 35px;">
+						<div>
+							Project
+						</div>
+					</td>
+
+				</tr>
+			</table>
+		</div>
+		
+		<div id="btn"><a style="color:white ;text-decoration: none;" href="#top">Top</a></div>
+	</div>
+</div>
+</div>
+
+
+
+</body>
+</html>
